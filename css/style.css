@@ -1,0 +1,188 @@
+/*-------------------------------
+---------GERAL: html+body--------
+---------------------------------*/
+* {
+  margin: 0;
+}
+/*html
+{
+	 background-image: url("../images/body-bg.jpg");
+}*/
+html, body {  height: 100%;	}
+body 
+{	
+	font-family: "Helvetica Neue", Helvetica, Arial, Georgia, 'Lobster','Great Vibes',  'Dancing Script', 'Lobster Two';	
+}
+table
+{
+	border:none;
+	border-collapse:collapse;
+}
+
+#equipas.centrada thead tr th
+{
+	font-size: 16pt;
+	height: 2.5em;
+}
+#equipas.centrada tbody tr td
+{
+	font-size: 13pt;
+	height: 2.2em;
+}
+
+/*-------------------------------
+-----menu / content / footer----- 
+---------------------------------*/
+section#container{
+	position: relative;
+	margin:0 auto; /* center, not in IE5 */
+	width:960px;
+	background-color: #F2F2F2;
+	
+	
+	min-height:100%; /* real browsers */
+	margin-bottom: -40px; 
+}
+header{
+	/*height: 152px;*/
+	/*background-color:  #94C2FF;*/
+
+	margin-left:auto; 
+    margin-right:auto;
+	text-align:center;
+}
+
+section#menu {
+	background-color:  #94C2FF;/*antes era:;*/
+	height: 45px;
+	/*background-image: url(../images/img_site/header.png);
+	background-repeat: repeat-x;*/
+}
+
+section#content
+{	padding:44px 25px 60px 25px;/*top right bottom left*/	}
+
+footer {
+	margin:0 auto; /* center, not in IE5 */
+	
+	text-align:center;
+}
+/*-------------------------------
+---------tipos de letra/---------
+---------------------------------*/
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 15px;
+	text-indent:10px;
+	text-align:justify;
+}
+
+h2 {
+	font-size: 16px;
+	text-indent:10px;
+	text-align:justify;
+}
+
+h3 {
+	line-height:200%;
+	font-size: 18px;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 24px;
+	color: #D23C27;
+}
+h5
+{
+	margin: 0;
+	margin-left: 3.5em;
+	padding: 0;
+	font-weight: bold;
+	font-size: 16px;
+	color: #D23C27;
+}
+h1 a, h2 a
+{
+	text-decoration: none;
+	color: #990000;
+}
+
+h1 a:hover,h2 a:hover
+{
+	
+	text-decoration: none;
+	color:#FF0000;
+}
+
+a
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.table th,.table td
+{
+	text-align: center;
+}
+.navbar-nav a
+{
+	color:#fff; 
+}
+
+/********************************************************************/
+/*** PANEL PRIMARY ***/
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff;
+}
+.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+	color: #fff;
+	background-color: #3071a9;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+	color: #428bca;
+	background-color: #fff;
+	border-color: #428bca;
+	border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #428bca;
+    border-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #fff;   
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    background-color: #4a9fe9;
+}
+
+.panel.with-nav-tabs .panel-heading{
+    padding: 5px 5px 0 5px;
+}
+.panel.with-nav-tabs .nav-tabs{
+	border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+	margin-bottom: -1px;
+}

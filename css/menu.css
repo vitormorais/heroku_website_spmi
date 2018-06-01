@@ -1,0 +1,132 @@
+/*-------------------------------
+------------MENU-----------------
+---------------------------------*/
+#menu ul li a#login 
+{	color:#82FF8E;	}
+#menu ul li a#logout 
+{	color:#FF8282;	}
+
+#menu ul
+{	
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	
+}
+
+#menu ul li { 
+	position: relative;
+	display: inline; 
+	float:left;
+
+}
+
+#menu ul li a
+{
+	font-size: 1.2em;
+	font-weight:bold;
+	width:80px;
+	height: 15px;
+	padding: 15px;	/*top right bottom left*/
+	color: #FFFFFF;
+	text-decoration: none;
+	float: left;
+	vertical-align:middle;
+	text-align:center;
+	border-right: 1px solid #000000;
+}
+
+
+/*login_on_menu*/
+#menu ul form.login_on_menu{
+
+	float:right;
+	background-color: #94C2FF;
+	/*
+	background-image: url(../images/img_site/header.png);
+	background-repeat: repeat-x;*/
+	
+}
+#menu ul form.login_on_menu input#field_form {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	padding: 2px;
+	
+	width: 100px;
+	height: 16px;
+
+	border: 1px solid #ccc;
+	border-radius: 4px;
+
+	vertical-align: middle;
+	/*Unir lado esquerdo*/
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+#menu ul form.login_on_menu input#submit_form {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+/*DROP-MENU!*/
+#menu ul li.litab
+{ 	display: inline-block;
+		background-image: #94C2FF;/*
+		background-image: url(../images/img_site/header.png);
+	background-repeat: repeat-x;*/
+}
+
+
+#menu ul li a.alinkstab
+{
+	color:#FFFFFF;
+	background-color:#94C2FF;;/*#2A307A;
+		background-image: url(../images/img_site/header.png);
+	background-repeat: repeat-x;*/
+
+	
+}
+
+#menu ul li  ul  li a.linksuteistab
+{
+	color:#FFFFFF;
+	background-color:  #94C2FF;	/*#2A307A;*/
+
+	
+}
+
+#menu ul ul {
+	
+	display:none;
+    position: absolute;
+  
+}
+
+#menu ul li:hover > ul {
+	display: block;
+	top: 45px;
+    left: 0;
+  
+}
+
+#menu ul ul li {
+	z-index:9999; /*ficar sempre em cima*/
+    display: inline-block;
+	border-top: 1px solid #F2F2F2;
+
+}
+
+#menu ul ul li a{
+font-size: 12px;
+border-right:0;
+display: inline-block;
+}
+
+#menu ul ul li a:hover
+{	border-left:8px solid transparent ;	font-size: 13px;}

@@ -1,0 +1,256 @@
+/*-------------------------------
+----------Class's & Id's---------
+---------------------------------*/
+header span#tit_onlitabs
+{
+	display: inline-block;
+	font-size: 6.7em;
+	font-family: 'Lobster';
+	margin-top: -2px;
+	line-height: 1;
+	height: 99px;
+}
+header img.foto_produto_paginainicial2{
+	 
+	vertical-align: top;
+width: 50px;
+height: 80px;
+margin-top: 10px;
+}
+header div#tit_seglinha
+{
+	font-size: 1em;
+	margin-top: -1.5%;
+}
+
+
+
+.centrada
+{
+	margin-left:auto; 
+    margin-right:auto;
+	text-align:center;
+}
+
+.iconst
+{
+	display:block;
+	width: 90px;
+	height: 95px;
+	background-size: 91px 96px;
+}
+
+#tabelaindex tr
+{	height:32px;	}
+#tabelaindex td
+{	width:135px;	}
+
+img.icon,span.icon
+{
+	width:28px; 
+	height:28px;
+	padding:1px;
+	vertical-align: middle;
+}
+i.icon
+{
+	padding:1px;
+	vertical-align: middle;
+}
+i.deleteicon{color:red;}
+
+i.checkicon{color:green;}
+
+div div i.msgserroicon
+{
+	padding:1px;
+	float: right;
+	margin-top: -5px;
+}
+
+.editarintro
+{
+	font-weight: normal;
+	font-size: 12px;
+	text-indent:0px;
+	text-align:left;
+	border:0px;
+	width:42.5%; 
+}
+
+#contactos td
+{
+	width:132px; 
+	height:145px;
+}
+
+/*PESQUISA*/
+form span.form_login input.pesquisaform	{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	padding: 2px;
+	
+	width: 100px;
+	height: 16px;
+
+	border: 1px solid #ccc;
+	border-radius: 4px;
+
+	vertical-align: middle;
+	/*Unir lado esquerdo*/
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+
+	font-size: 0.9em;
+}
+/*LOADMORE + LOADLESS*/
+.loadshow
+{
+	
+	padding: 5px;
+	font-size: 1.4em;
+}
+#loadMore
+{
+	margin-left: 8.1em;
+	margin-right: 1.14em;
+	border: 2px solid rgb(118, 219, 154);
+	background-color: rgb(118, 219, 154);
+
+}
+#showLess
+{
+	border: 2px solid rgb(224, 116, 116);
+	background-color: rgb(224, 116, 116);
+}
+
+/*-------------------------------
+-----------imagens---------------
+---------------------------------*/
+/*top right bottom left*/
+#imgeu 
+{
+	padding-right:15px;
+	position:relative; 
+	float:left; 
+	height: 165px;
+	width: 125px;
+}
+
+#imgheader
+{
+	margin-left:auto; 
+    margin-right:auto;
+	text-align:center;
+	width:100%; 
+	height:50px;
+	background:white;
+}
+.imgprojeto
+{
+	width:100px; 
+	height:100px; 
+	border-radius: 5%;
+}
+#sociallogo
+{
+border-radius: 5%;
+padding-right: 10px;
+}
+
+.fotoindex
+{
+	padding-right: 15px; 
+	padding-left: 70px; 
+	position: relative; 
+	float: left;			
+	width:150px; 
+	height: 200px;
+}
+.fotoindex2
+{
+	padding: 3px; 
+	position: relative; 			
+	width:150px; 
+	height: 200px;
+}
+/*-------------------------------
+-----------MENSAGENS-------------
+---------------------------------*/
+/*top right bottom left*/
+.error {
+  background-color: #FFAAAA;
+  padding: 10px;
+  color: #333;
+ 
+  font-weight: bold;
+}
+
+.success {
+  background-color: #82FF8E;
+  padding: 10px;
+  color: #333;
+ 
+  font-weight: bold;
+}
+
+.warning {
+  background-color: #FEEFB3;
+  padding: 10px;
+  color: #333;
+ 
+  font-weight: bold;
+
+}
+
+/*-------------------------------
+---------AMAZING_ICONS-----------
+---------------------------------*/
+/*top right bottom left*/
+.carrinhoicon
+{
+	padding:1px;
+	vertical-align: middle;
+	color:orange;
+}
+
+.form_login
+{	
+	display: inline-table;
+	border-collapse: separate;
+}
+.img_login i
+{	
+	background-color: #eee;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+
+	height: 16px;
+	width: 1.2857142857142858em;
+	text-align: center;
+	vertical-align: middle;
+
+	/*Unir lado direito*/
+	border-right: 0;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+
+	/*color:red;*/
+} 
+
+#infospan
+{
+	display: none;
+	position: absolute;
+	z-index: 999;
+	margin-top: -6%;
+	font-size: small;
+	background-color:  #94C2FF;
+	width: 240px;
+	font-size: 1em;
+}
