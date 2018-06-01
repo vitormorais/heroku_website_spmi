@@ -12,7 +12,11 @@
 				<div class="col-md-4">
 					<h3>
 						Descarregar versão de desenvolvimento
-					</h3><img  src="{$BASE_URL}img/qr_build.png" style="width:200px;" />
+					</h3>
+
+					<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='https://build.phonegap.com/apps/3171716/download/android/?qr_key=CTVhaWWjU5vCQpTj7htA'">
+						<img  src="{$BASE_URL}img/qr_build.png" style="width:200px;" />
+					</button>
 				</div>
 				<div class="col-md-4">
 					<h3>
