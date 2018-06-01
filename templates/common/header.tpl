@@ -28,25 +28,27 @@
 
 		<header>
 			<nav class="navbar navbar-collapse " style="background:#9c649e;color:#FFF">
-		<div class="row">
-			<div class="col-md-4">
 				<div class="row">
-					<div class="col-md-6">
-						<img  src="{$BASE_URL}img/logo.png" />
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-4">
+							</div>
+							<div class="col-md-4">
+								<img  src="{$BASE_URL}img/logo.png" />
+							</div>
+							<div class="col-md-4">
+								<h4>
+									SPMI - Sociedade Portuguesa de Medicina Interna
+								</h4>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-6">
-						<h3>
-							SPMI - Sociedade Portuguesa de Medicina Interna
-						</h3>
+					<div class="col-md-8">
+						<h1 class="text-center">
+							Guia do Jovem Internista
+						</h1>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-8">
-				<h3 class="text-center">
-					Guia do Jovem Internista
-				</h3>
-			</div>
-		</div>
-		</nav>
+			</nav>
 		</header>
 
