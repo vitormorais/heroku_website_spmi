@@ -38,9 +38,7 @@
 							</div>
 							<div class="col-md-4">
 								<h4>
-									<a href="{$BASE_URL}">
 									SPMI - Sociedade Portuguesa de Medicina Interna
-									</a>
 								</h4>
 							</div>
 						</div>

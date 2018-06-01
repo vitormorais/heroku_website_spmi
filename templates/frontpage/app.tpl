@@ -3,7 +3,9 @@
 	<section id="content" class="container">
 	
 		<div class="jumbotron">
-			
+				<h3 class="text-center">
+					Demonstração
+				</h3> 
 				<div class="iphone">
 	    			<div class="iphone-top">
 				      <span class="camera"></span>
