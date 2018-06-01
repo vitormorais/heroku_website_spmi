@@ -6,13 +6,13 @@
 			<div class="row">
 				<div class="col-md-4">
 					<h3>
-						h3. Lorem ipsum dolor sit amet.
-					</h3><img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+						Disponível para Android e IOS
+					</h3><img  src="{$BASE_URL}img/ios-android.png" />
 				</div>
 				<div class="col-md-4">
 					<h3>
-						h3. Lorem ipsum dolor sit amet.
-					</h3><img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+						Descarregar versão de desenvolvimento.
+					</h3><img  src="{$BASE_URL}img/qr_build.png" />
 				</div>
 				<div class="col-md-4">
 				</div>

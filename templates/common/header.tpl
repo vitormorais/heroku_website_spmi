@@ -43,11 +43,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-4">
 						<h1 class="text-center">
 							Guia do Jovem Internista
 						</h1>
 					</div>
+					<div class="col-md-4">
+				    </div>
 				</div>
 			</nav>
 		</header>
