@@ -1,6 +1,5 @@
 <?php 
-	print("zjsdkflksjdfçkjasdgh");
-	//header('Location: pages/logins/login.php'); 
+	header('Location: index.html'); 
 	exit();
 /*1º TESTE
 include_once('config/init.php');
