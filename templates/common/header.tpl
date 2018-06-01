@@ -27,9 +27,9 @@
 	<section class="container-fluid">
 		
 		<header>
-			<nav class="navbar navbar-collapse " style="background:#1973BE;color:#FFF">
+			<nav class="navbar navbar-collapse " style="background:#9C649E;color:#FFF">
 			<div class="container">
-			
+			Guia do Jovem Internista
 			</div>
 			</nav>
 		</header> 
