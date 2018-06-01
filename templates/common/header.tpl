@@ -49,7 +49,7 @@
 						</h1>
 					</div>
 					<div class="col-md-4">
-						<a href="{$BASE_URL}"> <i class="fa fa-home fa-4x"> </i> </a>
+						<a href="{$BASE_URL}" style="color:#FFF"> <i class="fa fa-home fa-4x"> </i> </a>
 				    </div>
 				</div>
 			</nav>
