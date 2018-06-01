@@ -1,0 +1,11 @@
+/* Empty. Add your own CSS if you like */
+
+ion-content	{
+		margin: 0;
+		padding: 14px 0;
+		color: #fff !important;
+		background: #d173b2 url("../img/bg.png") !important;
+		background-size: cover !important;;
+		background-repeat: no-repeat !important;;
+		min-height: 462px;
+}

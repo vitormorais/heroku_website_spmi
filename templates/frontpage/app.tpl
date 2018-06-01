@@ -18,11 +18,6 @@
 					<h3>
 						Visualizar app online
 					</h3>
-
-					<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='{$BASE_URL}pages/frontpage/app.php'">
-						Aceder à app
-					</button>
-
 				</div>
 			</div>
 		</div>
