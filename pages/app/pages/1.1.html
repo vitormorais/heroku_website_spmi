@@ -1,0 +1,210 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<title></title>
+
+		<link rel="manifest" href="manifest.json">
+
+	    <!-- un-comment this code to enable service worker
+	    <script>
+	      if ('serviceWorker' in navigator) {
+	        navigator.serviceWorker.register('service-worker.js')
+	          .then(() => console.log('service worker installed'))
+	          .catch(err => console.log('Error', err));
+	      }
+	  </script>-->
+
+	  <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+	  <link href="../css/style.css" rel="stylesheet">
+
+	    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+	    <link href="css/ionic.app.css" rel="stylesheet">
+	-->
+
+	<!-- ionic/angularjs js -->
+	<script src="../lib/ionic/js/ionic.bundle.js"></script>
+
+	<!-- cordova script (this will be a 404 during development) -->
+	<script src="cordova.js"></script>
+
+	<!-- your app's js -->
+	<script src="../js/app.js"></script>
+
+	<script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+
+
+</head>
+<body ng-app="starter">
+
+	<ion-side-menus>
+		<ion-side-menu-content>
+		</ion-side-menu-content>
+		<ion-side-menu side="left">
+		</ion-side-menu>
+	</ion-side-menus>
+
+	<ion-pane>
+
+		<!--   HEADER  -->
+
+		<ion-header-bar align-title="left">
+  		<!--	<div class="buttons">
+    			<button class="button" ng-click="doSomething()">
+    				<ion-icon name="arrow-dropleft"></ion-icon>
+    			</button>
+  			</div>-->
+  			<div class="buttons">
+  				<button class="button" ng-click="doSomething()"><ion-icon name="search" size="large"></ion-icon></button>
+  			</div>
+
+  			<div class="buttons">
+  			<h1 class="title"> &nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp Guia do Jovem Internista</h1>
+  			</div>
+
+  			
+		</ion-header-bar>
+
+
+
+		<!--   CONTENT  -->
+
+
+	<!-- 	<ion-header no-border>
+
+			<ion-toolbar>
+				<ion-title> Guia do Jovem Internista </ion-title>
+			</ion-toolbar>
+
+			<ion-toolbar>
+				<ion-title>DOENÇAS DO APARELHO RESPIRATÓRIO</ion-title>
+			</ion-toolbar>
+
+			</ion-header>
+-->
+				
+
+			<ion-content>
+
+				<ion-item-group>
+					<ion-item-divider> &nbsp </ion-item-divider>
+
+					<ion-item class="item item-text-wrap"><b>
+						PNEUMONIA: definições
+					</b>
+					</ion-item>
+
+					<ion-item class="item item-text-wrap"><b>
+						Pneumonia da comunidade (PAC):
+					</b>
+						início fora de meio hospitalar ou até às 48h de internamento.
+					</ion-item>
+					<ion-item class="item item-text-wrap"><b>
+					Pneumonia adquirida em meio hospitalar (nosocomial):
+					</b>
+					início 48h após admissão em internamento ou até 90 dias após a alta (exclui ca- sos em incubação na altura da admissão, inclui pneumonia associada ao ventilador- 48 a 72h após EOT). </ion-item>
+
+					<ion-item class="item item-text-wrap"><b> 
+					 Pneumonia associada aos cuidados de saúde:
+					 </b> 
+					 doentes não hospitalizados, mas com extenso contato com tratamentos médicos (1 ou mais dos seguintes: terapêutica intravenosa, tratamento de feridas, quimioterapia intravenosa nos últimos 30 dias, residente em lar ou instituição de saúde, internamento hospitalar por mais de 2 dias nos 30 dias anteriores, tratamento em clínica de hemodiálise nos 30 dias anteriores). 
+					 </ion-item>
+				</ion-item-group>
+				<ion-item-group>
+					<ion-item-divider> &nbsp </ion-item-divider>
+					<ion-item class="item item-text-wrap"><b>
+						Etiologia mais provável de acordo com condição clínica
+					</b></ion-item>
+
+					 <ion-item class="item item-text-wrap">
+					 <b>Pneumonia da comunidade:</b> Influenza, S. pneumoniae, S. aureus, H. influenzae, S. pyogenes 
+					 </ion-item>
+
+					 <ion-item class="item item-text-wrap">
+					 <b>Idade > 65 anos:</b> S. pneumoniae
+					 </ion-item>
+
+					 <ion-item class="item item-text-wrap">
+					 	<b>Residente em Lar:</b> S. pneumoniae, bacilos entéricos Gram negativos, H. influenzae, S. aureus, anaeróbios e C. pneumoniae
+					 </ion-item>
+
+					 <ion-item class="item item-text-wrap">
+					 	<b>Fumador/DPOC:</b> S. pneumoniae, H. influenzae, M. catarrhalis, Legionella spp.
+					 </ion-item>
+					 <ion-item class="item item-text-wrap">
+					 	<b> Doença estrutural pulmonar:  </b> 
+					 	P. aeruginosa, Burkholderia cepacia, S. aureus 
+					 </ion-item>
+					 <ion-item class="item item-text-wrap">
+					 	<b>  Alcoolismo:</b> 
+					 	S. pneumoniae, bacilos Gram negativos e anaeróbios 
+					 </ion-item>
+					 <ion-item class="item item-text-wrap">
+					 	<b>  Aspiração:</b> 
+					 	Anaeróbios, bacilos Gram negativos, S. aureus 
+					 </ion-item>
+					 <ion-item class="item item-text-wrap">
+					 	<b> Toxicofilia EV:  </b> 
+					 	Staphylococcus spp., anaeróbios, M. tuberculosis 
+					 </ion-item>
+					 <ion-item class="item item-text-wrap">
+					 	<b>  Internamento hospitalar no ano prévio:</b> 
+					 	S. pneumoniae (estirpes penicilino-resistentes) 
+					 </ion-item>
+
+					 <ion-item class="item item-text-wrap">
+					 	<b> Internamento hospitalar nas 2-4 semanas anteriores:  </b> 
+					 	Bacilos entéricos Gram negativos 
+					 </ion-item>
+
+					 <ion-item class="item item-text-wrap">
+					 	<b>  Internamento em UCI: </b> 
+					 	P. aeruginosa, Acinetobacter spp., Enterobacter spp., MRSA 
+					 </ion-item>
+
+					 <ion-item class="item item-text-wrap">
+					 	<b> Esplenectomizados:</b> 
+					 	S. pneumoniae e outros Streptococcus, H. influenzae
+					 </ion-item>
+
+					 <ion-item class="item item-text-wrap">
+					 	<b>  Imunosupressão: </b> 
+					 	P. jirovecii, CMV, Aspergillus spp 
+					 </ion-item>
+
+					 <ion-item class="item item-text-wrap">
+					 	<b>  Exposição a pássaros: </b> 
+					 	C. psittaci
+					 </ion-item>
+					 <ion-item class="item item-text-wrap">
+					 	<b>  Exposição a gado ou gatas grávidas:</b> 
+					 	C. burnetti 
+					 </ion-item>
+				</ion-item-group>
+
+				<ion-item-group>
+					<ion-item-divider> &nbsp </ion-item-divider>
+					<ion-item class="item item-text-wrap"><b>
+						
+					</b></ion-item>
+
+					 <ion-item class="item item-text-center">
+					 	<img src="accets/1.1a.png"></img>
+					 </ion-item>
+
+			</ion-content>
+
+			<ion-footer-bar align-title="left" >
+  <div class="buttons">
+    <button class="button">Left Button</button>
+  </div>
+  <h1 class="title">Title!</h1>
+  <div class="buttons" ng-click="doSomething()">
+    <button class="button">Right Button</button>
+  </div>
+</ion-footer-bar>
+
+		</ion-pane>
+	</body>
+	</html>

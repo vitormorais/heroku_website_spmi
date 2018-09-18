@@ -157,3 +157,4 @@ function disableAll() {
     var x = document.getElementById("AUTORES");
     x.style.display = "none";
 }
+
