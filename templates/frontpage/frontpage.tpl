@@ -4,27 +4,27 @@
 	
 		<div class="jumbotron">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<h3>
 						(Em desenvolvimento) para Android e IOS
-					</h3><img  src="{$BASE_URL}img/ios-android.png" style="width:200px;"/>
-				</div>
-				<div class="col-md-4">
-					<h3>
-						Descarregar versão de desenvolvimento
 					</h3>
-
-					<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='{$BASE_URL}pages/frontpage/GuiaSPMI-debug.apk'">
-						<img  src="{$BASE_URL}img/qr_app.png" style="width:200px;" />
+					<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.vmorais.SPMI.guia'">
+					<img  src="{$BASE_URL}img/android.png" style="width:200px;" />
 					</button>
+
 				</div>
-				<div class="col-md-4">
+				
+				<div class="col-md-6">
 					<h3>
 						Visualizar versão de demonstração
 					</h3>
 
 					<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='{$BASE_URL}pages/frontpage/app.php'">
 						Aceder à app
+					</button>
+
+					<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='{$BASE_URL}pages/frontpage/full_screen.php'">
+						Visualizar versão de demonstração em full-screen
 					</button>
 
 				</div>
