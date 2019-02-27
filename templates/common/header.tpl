@@ -31,16 +31,16 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="row">
-							<div class="col-md-4">
+							<div class="col-md-6">
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-6">
 								<img  src="{$BASE_URL}img/logo.png" />
 							</div>
-							<div class="col-md-4">
+							<!--<div class="col-md-4">
 								<h4>
 									SPMI - Sociedade Portuguesa de Medicina Interna
 								</h4>
-							</div>
+							</div> -->
 						</div>
 					</div>
 					<div class="col-md-4">
